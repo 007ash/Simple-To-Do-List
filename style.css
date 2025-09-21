@@ -2,14 +2,24 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
+
 }
 #taskInput {
     padding: 8px;
     width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+
 }
 #taskList {
     list-style-type: none;
     padding: 0;
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: left;
+
 }
 li {
     padding: 8px;
@@ -17,8 +27,31 @@ li {
     background: #f4f4f4;
     border-radius: 5px;
     cursor: pointer;
+    /* transition: background 0.3s;
+    &:hover {
+        background: #e0e0e0;
+    } */
+
 }
 .completed {
     text-decoration: line-through;
     color: gray;
+    pointer-events: none;
+    user-select: none;
+
 }
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    &:hover {
+        background: #218838;
+    }
+
+}
+
