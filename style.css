@@ -27,11 +27,6 @@ li {
     background: #f4f4f4;
     border-radius: 5px;
     cursor: pointer;
-    /* transition: background 0.3s;
-    &:hover {
-        background: #e0e0e0;
-    } */
-
 }
 .completed {
     text-decoration: line-through;
